@@ -9,7 +9,7 @@
 import UIKit
 
 public struct PickerConfiguration: IndicatorTypeConfig, PickerDebugLogsConfig {
-    
+    public var firstAlbumName: String?
     /// 图片资源
     public var imageResource: HX.ImageResource.Picker {
         HX.ImageResource.shared.picker
